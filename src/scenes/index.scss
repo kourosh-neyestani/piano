@@ -12,4 +12,16 @@ $primary: darkred;
     padding: 12px 9% 6%;
     justify-content: center;
     background-color: $primary;
+
+    .piano-key {
+        flex: 1;
+        position: relative;
+        margin: 0 0.12rem;
+        max-width: 8.8rem;
+    }
+    .piano-key-white {
+        height: 100%;
+        position: relative;
+        background: $base_0;
+    }
 }
