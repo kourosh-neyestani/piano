@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactHowler from 'react-howler'
 
 const PianoKey = (props) => {
 
@@ -22,8 +23,10 @@ const PianoKey = (props) => {
             onMouseDown={onStart}
             onMouseUp={onStop}
         >
-            {console.log(playing)}
-            {console.log(getSource())}
+            <ReactHowler
+                src={getSource()}
+                playing={playing}
+            />
         </div>
     )
 }
