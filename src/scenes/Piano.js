@@ -1,4 +1,5 @@
 import React from "react";
+import PianoKey from './components/PianoKey';
 import './index.scss';
 
 const Piano = () => {
@@ -6,8 +7,8 @@ const Piano = () => {
         <div className="piano">
             {PianoKeys.map((key, i) => (
                 <div className="piano-key" key={i}>
-                      <div className="piano-key-white" />
-                    {key.note2 ? <div className="piano-key-black" />: null}
+                    <PianoKey note={key.note1} flat={true} />
+                    {key.note2 ? <PianoKey note={key.note2} flat={false} /> : null}
                 </div>
             ))}
         </div>
