@@ -6,42 +6,52 @@ const Piano = () => {
         <div className="piano">
             <div className="piano-key">
                 <div className="piano-key-white" />
+                <div className="piano-key-black" />
+            </div>
+            <div className="piano-key">
+                <div className="piano-key-white" />
+                <div className="piano-key-black" />
             </div>
             <div className="piano-key">
                 <div className="piano-key-white" />
             </div>
             <div className="piano-key">
                 <div className="piano-key-white" />
+                <div className="piano-key-black" />
+            </div>
+            <div className="piano-key">
+                <div className="piano-key-white" />
+                <div className="piano-key-black" />
+            </div>
+            <div className="piano-key">
+                <div className="piano-key-white" />
+                <div className="piano-key-black" />
             </div>
             <div className="piano-key">
                 <div className="piano-key-white" />
             </div>
             <div className="piano-key">
                 <div className="piano-key-white" />
+                <div className="piano-key-black" />
+            </div>
+            <div className="piano-key">
+                <div className="piano-key-white" />
+                <div className="piano-key-black" />
             </div>
             <div className="piano-key">
                 <div className="piano-key-white" />
             </div>
             <div className="piano-key">
                 <div className="piano-key-white" />
+                <div className="piano-key-black" />
             </div>
             <div className="piano-key">
                 <div className="piano-key-white" />
+                <div className="piano-key-black" />
             </div>
             <div className="piano-key">
                 <div className="piano-key-white" />
-            </div>
-            <div className="piano-key">
-                <div className="piano-key-white" />
-            </div>
-            <div className="piano-key">
-                <div className="piano-key-white" />
-            </div>
-            <div className="piano-key">
-                <div className="piano-key-white" />
-            </div>
-            <div className="piano-key">
-                <div className="piano-key-white" />
+                <div className="piano-key-black" />
             </div>
             <div className="piano-key">
                 <div className="piano-key-white" />

@@ -13,6 +13,7 @@ $primary: darkred;
     justify-content: center;
     background-color: $primary;
 
+
     .piano-key {
         flex: 1;
         position: relative;
@@ -21,7 +22,18 @@ $primary: darkred;
     }
     .piano-key-white {
         height: 100%;
-        position: relative;
+        cursor: pointer;
         background: $base_0;
+    }
+    .piano-key-black {
+        top: 0;
+        left: 100%;
+        width: 70%;
+        height: 60%;
+        cursor: pointer;
+        z-index: 1;
+        position: absolute;
+        background: $base_1;
+        transform: translateX(-50%);
     }
 }
